@@ -1,0 +1,64 @@
+
+\documentclass[12 pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[american]{babel} 
+%\usepackage[hyphens]{url}
+\usepackage[colorlinks=true,linkcolor=blue,anchorcolor=black,citecolor=blue,filecolor=blue,menucolor=black,runcolor=red,urlcolor=blue]{hyperref} %to get hyperlinks
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{csquotes}
+\newbox{\bigpicturebox}%to create collage in pict 1
+
+\usepackage[style=apa,backend=biber]{biblatex}%to cite using apa7
+
+\usepackage{geometry}%to change page specs
+\usepackage{enumitem,varwidth}%image stuff
+\usepackage[svgnames]{xcolor}%image stuff, so pictures are colored
+%\usepackage{tikz}%image stuff
+%\usetikzlibrary{shapes.geometric} %image stuff
+%\usepackage{lmodern}
+\usepackage{graphicx}%to follow the template from school
+\usepackage{booktabs} %to follow the template from school
+ \geometry{
+	a4paper,
+	left=25mm,
+	top=25mm,
+	right=25mm,
+	bottom=25mm,
+}
+\parindent24pt
+%to follow the template from school
+
+
+\graphicspath{ {./bilder/} } %where the pictures are
+\addbibresource{MasterLibrary.bib}
+\title{%
+Collection Development: Aerial photograph postcards  }
+
+\author{Sonia Lindblom \and Sicheng Yan}
+
+\date{June 2021}
+
+\begin{document}
+\include{titlepage}
+
+\section{Introduction}
+I\autocite{manning2008}
+
+
+\section {Analysis}
+
+
+\section{Conclusions}
+
+
+\newpage
+
+%\bibliographystyle{apacite}
+%\bibliography{../../MasterLibrary.bib}
+\printbibliography
+
+
+\end{document}
+
+
