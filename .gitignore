@@ -19,3 +19,5 @@
 run.xml
 *.sav
 *.pdf
+*.ini
+*.gz
