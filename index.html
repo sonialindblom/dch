@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>homePage</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="header-img"><img src="images/Axvall3Recto.jpg" alt=""></div>
+            <div class="header-con">
+                <h6>Aerial photograph postcards of Axvall</h6>
+                <p>Axvall is a village in Valle region, Skara Municipality, Väster Götaland county in Sweden. It was formerly a municipality itself, with a railway station, mayor's office and other functions as well as a big sanatorium, Stora Ekeberg Sanatorium. One prominent part of Axvall's history is the housing of two military regiments (Frykman 1992). One of them, Skarborgs regemente trained in Axevalla hed between 1696 and 1913.</p>
+                <p>The aerial photographs were of major interest since among them there were cards that were forbidden to sell due to restrictions from the Swedish Army. Since aerial photographs taken before the 1950's are free to publish, we decided that digitizing those images would be a good contribution for the history of Axvall. </p>
+                <p>If you find errors or want to supplement the information, please contact sonialindblom@gmail.com and sichengyan@outlook.com.</p>
+                <p>All the images on this website are protected by copyright. These may not be copied or published without permission from the copyright owner.</p>
+                <div class="btn-center">
+                    <button class="btn btn-success" onclick="returnFun()">Online Exhibition</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="listItem">
+            <ul id="listItem_ul"></ul>
+        </div>
+    </div>
+
+    <script src="intended.json"></script>
+    <script>
+        listItemFun(data)
+        
+
+        function listItemFun(listItem) {
+            var listItem_ul = document.getElementById("listItem_ul");
+            for(var i = 0; i < listItem.length; i++) {
+                var _li = document.createElement("li");
+                if(i == 7 || i == 8 || i == 13 || i == 16) {
+                    _li.setAttribute("class", "row-line")
+                }
+                var li_img = document.createElement("div");
+                li_img.setAttribute("class", "li_img");
+                var imgPath = document.createElement("img");
+                imgPath.src = "images/" + listItem[i].imgUrl;
+                li_img.appendChild(imgPath);
+                var li_con = document.createElement("div");
+                li_con.setAttribute("class", "li_con");
+                var p_1 = document.createElement("p");
+                p_1.innerHTML = "Identifier: " + listItem[i]["Identifier"];
+                // var p_2 = document.createElement("p");
+                // p_2.innerHTML = "GPS: " + listItem[i]["GPS"];
+                var p_3 = document.createElement("p");
+                p_3.innerHTML = "Publisher: " + listItem[i]["Publisher"];
+                var p_4 = document.createElement("p");
+                p_4.innerHTML = "Photograph: " + listItem[i]["Photograph"];
+                var p_6 = document.createElement("p");
+                p_6.innerHTML = "Exclusive right: " + listItem[i]["Exclusive right"];
+                // var p_7 = document.createElement("p");
+                // p_7.innerHTML = "Year: " + listItem[i]["Year"];
+                // var p_8 = document.createElement("p");
+                // p_8.innerHTML = "Recto_text: " + listItem[i]["Recto_text"];
+                // var p_9 = document.createElement("p");
+                // p_9.innerHTML = "Verse_text: " + listItem[i]["Verse_text"];
+                // var p_10 = document.createElement("p");
+                // p_10.innerHTML = "Dimentions: " + listItem[i]["Dimentions"];
+                // var p_11 = document.createElement("p");
+                // p_11.innerHTML = "Stamps: " + listItem[i]["Stamps"];
+                var p_12 = document.createElement("p");
+                p_12.innerHTML = "Number of cards available: " + listItem[i]["Number of cards available"];
+                var p_13 = document.createElement("p");
+                p_13.innerHTML = "Region:" + listItem[i]["Region"];
+                var p_14 = document.createElement("p");
+                p_14.innerHTML = "Description: " + listItem[i]["Description"];
+                var p_15 = document.createElement("p");
+                p_15.innerHTML = "Color: " + listItem[i]["Color"];
+                // var p_16 = document.createElement("p");
+                // p_16.innerHTML = "Condition: " + listItem[i]["Condition"];
+                var p_17 = document.createElement("p");
+                p_17.innerHTML = "Collection: " + listItem[i]["Collection"];
+                var p_18 = document.createElement("p");
+                p_18.innerHTML = "Scanned by: " + listItem[i]["Scanned by"];
+                var p_19 = document.createElement("p");
+                p_19.innerHTML = "Metadata by: " + listItem[i]["Metadata by"];
+                var p_20 = document.createElement("p");
+                p_20.innerHTML = "Geographical markers: " + listItem[i]["Geographical markers"];
+                // var p_21 = document.createElement("p");
+                // p_21.innerHTML = "Image wrapper: " + listItem[i]["Image wrapper"];
+                var p_22 = document.createElement("p");
+                p_22.innerHTML = "Path: https://github.com/sonialindblom/dch/blob/main/previewOfpostCards/" + listItem[i]["imgUrl"];
+                li_con.appendChild(p_1);
+                // li_con.appendChild(p_2);
+                li_con.appendChild(p_3);
+                li_con.appendChild(p_4);
+                li_con.appendChild(p_6);
+                // li_con.appendChild(p_7);
+                // li_con.appendChild(p_8);
+                // li_con.appendChild(p_9);
+                // li_con.appendChild(p_10);
+                // li_con.appendChild(p_11);
+                li_con.appendChild(p_12);
+                li_con.appendChild(p_13);
+                li_con.appendChild(p_14);
+                li_con.appendChild(p_15);
+                // li_con.appendChild(p_16);
+                li_con.appendChild(p_17);
+                li_con.appendChild(p_18);
+                li_con.appendChild(p_19);
+                li_con.appendChild(p_20);
+                // li_con.appendChild(p_21);
+                li_con.appendChild(p_22);
+                _li.appendChild(li_img);
+                _li.appendChild(li_con);
+                listItem_ul.appendChild(_li);
+            }
+        }
+
+
+        function returnFun() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
