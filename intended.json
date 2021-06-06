@@ -1,19 +1,19 @@
 var data = [
     {
-        "Identifier": "Ax01",
+        "Identifier": "FFA10",
         "Publisher": "Ivar Larsson Eftr., Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
         "Region": "Västra Götaland County, Sweden ",
-        "Description": "Aerial photo of Axvall with houses, roads and fields",
+        "Description": "Aerial photo of Axvall with houses, Railway, Stenumvägen to the right, and fields",
         "Color": "Black&White",
         "Collection": "Axvall aerial photo postcards",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "Axvall3Recto.jpg"
+        "imgUrl": "P10102071FFA10.jpg"
     },
     {
-        "Identifier": "Ax02",
+        "Identifier": "FFA10v",
         "Publisher": "Ivar Larsson Eftr., Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -22,23 +22,23 @@ var data = [
         "Collection": "Axvall aerial photo postcards",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "Axvall3Verse.jpg"
+        "imgUrl": "P1010208FFA10v.jpg"
     },
     {
-        "Identifier": "Ax03",
+        "Identifier": "FFA08",
         "Publisher": "Skara Pappershandel Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
         "Region": "Västra Götaland County, Sweden ",
-        "Description": "Aerial photo of Axvall including town center and trainstation.",
+        "Description": "Aerial photo of Axvall including town center, trainstation and Axevella Brewery to the left",
         "Color": "Black&White",
         "Collection": "Axvall aerial photo postcards",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "Axvall4Recto.jpg"
+        "imgUrl": "P1010205FFA08.jpg"
     },
     {
-        "Identifier": "Ax04",
+        "Identifier": "FFA08V",
         "Publisher": "Skara Pappershandel Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -47,10 +47,10 @@ var data = [
         "Collection": "Axvall aerial photo postcards",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "Axvall4Verse.jpg"
+        "imgUrl": "P1010206FFA08v.jpg"
     },
     {
-        "Identifier": "Ax05",
+        "Identifier": "FFA06",
         "Publisher": "Ivar Larsson, Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -60,10 +60,10 @@ var data = [
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
         "Geographical markers": "Folk high school, Axvall",
-        "imgUrl": "folkhögskolanRecto.jpg"
+        "imgUrl": "P1010223FFA06.jpg"
     },
     {
-        "Identifier": "Ax06",
+        "Identifier": "FFA06v",
         "Publisher": "Ivar Larsson, Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -72,10 +72,10 @@ var data = [
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
         "Geographical markers": "Folk high school, Axvall",
-        "imgUrl": "folkhögskolanVerse.jpg"
+        "imgUrl": "P1010224FFA06v.jpg"
     },
     {
-        "Identifier": "Ax07",
+        "Identifier": "BAX01",
         "Publisher": "Ivar Larsson, Axvall",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
         "Year": "Octorber 20,1941.",
@@ -86,18 +86,36 @@ var data = [
         "Metadata by": "Sicheng Yan",
         "imgUrl": "försvarsmaktensBeslut.jpg"
     },
+    
+    
     {
-        "Identifier": "Ax08",
+        "Identifier": "FFA11",
         "Region": "Västra Götaland County, Sweden ",
         "Description": "Aerial photo of track and field stadium in Axvall.",
         "Color": "Black&White",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
         "Geographical markers": "Sports field",
-        "imgUrl": "idrottsPlatsen.jpg"
+        "imgUrl": "P1010217FFA11.jpg"
     },
+    
+        {
+        "Identifier": "FFA11v",
+        "Publisher": "AE - Svensk tillverkning",
+        "Year":"August 31, 1940",
+        "Stamps":"FÖRSVARSSTABEN",
+        "Region": "Västra Götaland County, Sweden ",
+        "Description":"Reviewed and allowed for sale, marketing and dividens equal to the Royal.",
+        "Color": "Color",
+        "Scanned by": "Sonia Lindblom",
+        "Metadata by": "Sicheng Yan/ Sonia Lindblom",
+        "imgUrl": "P1010218FFA11v.jpg"
+    },
+    
+    
+    
     {
-        "Identifier": "Ax09",
+        "Identifier": "FFA02",
         "Photograph": "AB.Stockholms Aero",
         "Region": "Västra Götaland County, Sweden ",
         "Description": "Aerial photo of Axvall town hall.",
@@ -105,10 +123,25 @@ var data = [
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
         "Geographical markers": "municipal hall",
-        "imgUrl": "Komunalhuset.jpg"
+        "imgUrl": "P1010225FFA02.jpg"
     },
+    
+    
+        {
+        "Identifier": "FFA02V",
+        "Photograph": "AB.Stockholms Aero",
+        "Region": "Västra Götaland County, Sweden ",
+        "Description": "verse of aerial photo of Axvall town hall.",
+        "Color": "Black&White",
+        "Scanned by": "Sonia Lindblom",
+        "Metadata by": "Sicheng Yan/Sonia Lindblom",
+        "Geographical markers": "municipal hall",
+        "imgUrl": "P1010226FFA02v.jpg.jpg"
+    },
+    
+    
     {
-        "Identifier": "Ax10",
+        "Identifier": "FFA03",
         "Publisher": "Ivar Larsson, Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -117,10 +150,10 @@ var data = [
         "Color": "Black&White",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "norraVing1Recto.jpg"
+        "imgUrl": "P1010214FFA03.jpg"
     },
     {
-        "Identifier": "Ax11",
+        "Identifier": "FFA03V",
         "Publisher": "Ivar Larsson, Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -131,10 +164,10 @@ var data = [
         "Color": "Color",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "norraVing1Verse_Stampled.jpg"
+        "imgUrl": "P1010215FFA03v.jpg"
     },
     {
-        "Identifier": "Ax12",
+        "Identifier": "FFA04",
         "Publisher": "Ivar Larsson, Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -144,10 +177,10 @@ var data = [
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
         "Geographical markers": "Church",
-        "imgUrl": "norraVing2.jpg"
+        "imgUrl": "P1010210FFA04.jpg"
     },
     {
-        "Identifier": "Ax13",
+        "Identifier": "FFA04v",
         "Publisher": "Ivar Larsson, Axvall",
         "Photograph": "Ahrenbergsflyg. Lilljeqvist",
         "Exclusive right": "Almquist&Cöster, Hälsningborg",
@@ -155,21 +188,11 @@ var data = [
         "Color": "Black&White;",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "norraVing2Verse.jpg"
+        "imgUrl": "P1010211FFA04v.jpg"
     },
+
     {
-        "Identifier": "Ax14",
-        "Photograph": "AB flygtrafik, Dals Långed",
-        "Exclusive right": "AB flygtrafik, Dals Långed",
-        "Region": "Västra Götaland County, Sweden ",
-        "Description": "Aerial photo of Axvall trainstation and surranding buildings; Railroad tracks in the center of the picture.",
-        "Color": "Black&White;",
-        "Scanned by": "Sonia Lindblom",
-        "Metadata by": "Sicheng Yan",
-        "imgUrl": "photoOfpostCardStation.jpg"
-    },
-    {
-        "Identifier": "Ax15",
+        "Identifier": "FFA05",
         "Photograph": "Lilljeqvist.",
         "Exclusive right": "AB Flygtrafik, Stockholm",
         "Region": "Västra Götaland County, Sweden ",
@@ -178,44 +201,53 @@ var data = [
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
         "Geographical markers": "Church",
-        "imgUrl": "SkärvKyrkaRecto.jpg"
+        "imgUrl": "P1010219FFA05.jpg"
     },
     {
-        "Identifier": "Ax16",
+        "Identifier": "FFA05v",
         "Photograph": "Lilljeqvist.",
         "Exclusive right": "AB Flygtrafik, Stockholm",
         "Region": "Västra Götaland County, Sweden ",
         "Color": "Black&White;",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "skärvKyrkaVerse.jpg"
+        "imgUrl": "P1010220FFA05v.jpg"
     },
     {
-        "Identifier": "Ax17",
+        "Identifier": "FFA07",
         "Region": "Västra Götaland County, Sweden ",
         "Description": "Aerial photo of the St.Ekeberg Sanatorium.",
         "Color": "Black&White;",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
         "Geographical markers": "Sanatorium",
-        "imgUrl": "storaEkbergSanatorium.jpg"
+        "imgUrl": "P1010212FFA07.jpg"
     },
+        {
+        "Identifier": "FFA07v",
+        "publisher": "Pressbyrån"
+        "Color": "Black&White;",
+        "Scanned by": "Sonia Lindblom",
+        "Metadata by": "Sicheng Yan/ Sonia Lindblom",
+        "imgUrl": "P1010213FFA07v.jpg"
+    },
+    
     {
-        "Identifier": "Ax18",
+        "Identifier": "FFA01",
         "Photograph": "AB.Stockholms Aero",
         "Region": "Västra Götaland County, Sweden ",
         "Description": "Aerial photo of old age care service house Vallehemmet in Axvall.",
         "Color": "Black&White;",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "Vallehememet_recto.jpg"
+        "imgUrl": "P1010227FFA01.jpg"
     },
     {
-        "Identifier": "Ax19",
+        "Identifier": "FFA01v",
         "Region": "Västra Götaland County, Sweden ",
         "Color": "Black&White;",
         "Scanned by": "Sonia Lindblom",
         "Metadata by": "Sicheng Yan",
-        "imgUrl": "Vallehemmet_verse.jpg"
+        "imgUrl": "P1010228FFA01v.jpg"
     }
 ]
