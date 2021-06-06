@@ -31,12 +31,12 @@
 	<E K="Version" V="1300" />
 	<E K="Width" V="4592" />
 	<VAR Engine="1300">
-		<E K="HighResProcessCounter" V="0" />
+		<E K="HighResProcessCounter" V="53" />
 		<E K="LastMetadataModificationDate" V="-62135596800.000000" />
-		<E K="LowResProcessCounter" V="0" />
+		<E K="LowResProcessCounter" V="496" />
 		<E K="ProductID" V="FileSystemTiff" />
 		<E K="RawMetadataModificationDate" V="-62135596800.000000" />
-		<E K="SyncProcessCounter" V="0" />
+		<E K="SyncProcessCounter" V="80" />
 		<E K="UUID" V="B928A920-0F7D-4B80-911D-FA4C8837893D" />
 		<E K="XMPMetadataModificationdate" V="-62135596800.000000" />
 		<DL>
@@ -84,7 +84,7 @@
 			<E K="GradationCurveBlue" V="0,0;1,1" />
 			<E K="GradationCurveGreen" V="0,0;1,1" />
 			<E K="GradationCurveRed" V="0,0;1,1" />
-			<E K="GradationCurveY" V="0,0;1,1" />
+			<E K="GradationCurveY" V="0,0;0.104815863072872,0.136707857251167;0.14730878174305,0.252747595310211;0.22662889957428,0.378580629825592;0.331444770097733,0.468140423297882;0.450424939393997,0.683298110961914;0.532577931880951,0.794197380542755;0.586402237415314,0.862527132034302;0.648725211620331,0.934652924537659;1,1" />
 			<E K="Highlight" V="1;1;1;1" />
 			<E K="HighlightRecoveryEx" V="0" />
 			<E K="ICCProfile" V="EMBEDDED" />
@@ -116,6 +116,15 @@
 			<E K="WhiteBalance" V="1;1;1" />
 			<E K="WhiteRecovery" V="0" />
 		</DL>
-		<AL />
+		<AL>
+			<E K="CalculatedDehazeColor" V="0.0564808063209057;0.058909073472023;0.0681716203689575" />
+			<E K="Crop" V="1931.49475097656;1648;2092;1352" />
+			<E K="DehazeAmount" V="57.3770484924316" />
+			<E K="DehazeColor" V="0.443904012441635;0.463793098926544;0.460498511791229" />
+			<E K="DehazeLevelHigh" V="0.412558168172836;0.415274292230606;0.452857255935669" />
+			<E K="DehazeLevelLow" V="0.01838712207973;0.0191195551306009;0.0119325555860996" />
+			<E K="GradationCurveY" V="0,0;0.104815863072872,0.136707857251167;0.14730878174305,0.252747595310211;0.22662889957428,0.378580629825592;0.331444770097733,0.468140423297882;0.450424939393997,0.683298110961914;0.532577931880951,0.794197380542755;0.586402237415314,0.862527132034302;0.648725211620331,0.934652924537659;1,1" />
+			<E K="ICCProfile" V="bättrevykort.icm" />
+		</AL>
 	</VAR>
 </IMG>

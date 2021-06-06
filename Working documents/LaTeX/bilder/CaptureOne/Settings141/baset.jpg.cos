@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<IMG>
+	<E K="Author" V="14.2.0.48 Pro Win" />
+	<E K="Camera_Lens" V="-- mm f/--" />
+	<E K="Camera_Make" V="Joint Photographic Experts Group" />
+	<E K="Camera_Model" V="Jpeg File" />
+	<E K="CameraDisplayName" V="Jpeg File" />
+	<E K="Exp_ColorSpace" V="GIMP built-in sRGB" />
+	<E K="Exp_Format" V="JPEG" />
+	<E K="File_Size" V="839538" />
+	<E K="Height" V="1816" />
+	<E K="ImageClassification" V="19" />
+	<E K="MultiShotCount" V="0" />
+	<E K="MultiShotSequenceID" V="--" />
+	<E K="MultiShotTotal" V="0" />
+	<E K="MultiShotType" V="4294967295" />
+	<E K="PixelHeight" V="0" />
+	<E K="PixelWidth" V="0" />
+	<E K="UUID" V="68D6E917-E904-483B-A196-AE0C7A1B527C" />
+	<E K="Version" V="1300" />
+	<E K="Width" V="1266" />
+	<VAR Engine="1300">
+		<E K="HighResProcessCounter" V="0" />
+		<E K="LastMetadataModificationDate" V="-62135596800.000000" />
+		<E K="LowResProcessCounter" V="0" />
+		<E K="ProductID" V="FileSystemJpeg" />
+		<E K="RawMetadataModificationDate" V="-62135596800.000000" />
+		<E K="SyncProcessCounter" V="0" />
+		<E K="UUID" V="E9F26AF8-C8B5-4A32-851E-DD5D5F29CF3C" />
+		<E K="XMPMetadataModificationdate" V="-62135596800.000000" />
+		<DL>
+			<E K="BlackRecovery" V="0" />
+			<E K="Brightness" V="0" />
+			<E K="BwBlue" V="0" />
+			<E K="BwCyan" V="0" />
+			<E K="BwDarkHue" V="0" />
+			<E K="BwDarkSaturation" V="0" />
+			<E K="BwEnabled" V="0" />
+			<E K="BwGreen" V="0" />
+			<E K="BwLightHue" V="0" />
+			<E K="BwLightSaturation" V="0" />
+			<E K="BwMagenta" V="0" />
+			<E K="BwRed" V="0" />
+			<E K="BwYellow" V="0" />
+			<E K="Clarity" V="0" />
+			<E K="ClarityMethod" V="3" />
+			<E K="ClarityStructure" V="0" />
+			<E K="CleanLongExposureAmount" V="0" />
+			<E K="CnrAmount" V="0" />
+			<E K="ColorBalance" V="1;1;1" />
+			<E K="ColorBalanceHighlight" V="1;1;1" />
+			<E K="ColorBalanceMidtone" V="1;1;1" />
+			<E K="ColorBalanceShadow" V="1;1;1" />
+			<E K="ColorCorrections" V="1,1,1,0,0,0,255,0,168.909881591797,-7.11462593078613,7.11462593078613,-100,100,15,0,0,0,0;1,1,1,0,0,0,170.93928527832,0,255,-17.8928756713867,17.8928756713867,-100,100,15,0,0,0,0;1,1,1,0,0,0,0,64.2907180786133,255,-22.4273700714111,22.4273700714111,-100,100,15,0,0,0,0;1,1,1,0,0,0,0,255,236.14192199707,-11.8545951843262,11.8545951843262,-100,100,15,0,0,0,0;1,1,1,0,0,0,45.498851776123,255,0,-39.3857116699219,39.3857116699219,-100,100,15,0,0,0,0;1,1,1,0,0,0,255,211.99267578125,0,-5,5,-100,100,15,0,0,0,0;1,1,1,0,0,0,255,101.301910400391,0,-6.01692199707031,6.01692199707031,-100,100,15,0,0,0,0;1,1,1,0,0,0,255,0,31.4708557128906,-10.195873260498,10.195873260498,-100,100,15,0,0,0,0;0,1,1,0,0,0,0,128,0,-2,2,-100,100,0,0,0,0,0" />
+			<E K="Content_Subjectcode" V="" />
+			<E K="Content_SupplementalCategories" V="" />
+			<E K="Contrast" V="0" />
+			<E K="CropOutsideImage" V="0" />
+			<E K="DehazeAmount" V="0" />
+			<E K="Exposure" V="0" />
+			<E K="FilmCurve" V="FileSystemJpeg-Auto.fcrv" />
+			<E K="FilmGrainAmount" V="0" />
+			<E K="FilmGrainDensity" V="0" />
+			<E K="FilmGrainGranularity" V="50" />
+			<E K="FilmGrainType" V="0" />
+			<E K="GeometryCanvasClipping" V="2" />
+			<E K="GeometryKeystoneAmount" V="100" />
+			<E K="GeometryKeystoneAspect" V="0" />
+			<E K="GeometryKeystoneFocalLength" V="1" />
+			<E K="GeometryKeystoneTiltX" V="0" />
+			<E K="GeometryKeystoneTiltY" V="0" />
+			<E K="GradationCurve" V="0,0;1,1" />
+			<E K="GradationCurveBlue" V="0,0;1,1" />
+			<E K="GradationCurveGreen" V="0,0;1,1" />
+			<E K="GradationCurveRed" V="0,0;1,1" />
+			<E K="GradationCurveY" V="0,0;1,1" />
+			<E K="Highlight" V="1;1;1;1" />
+			<E K="HighlightRecoveryEx" V="0" />
+			<E K="ICCProfile" V="EMBEDDED" />
+			<E K="Image_Scene" V="" />
+			<E K="LensGeoAbr" V="|0.000000|1|0|0" />
+			<E K="LensLccLightFalloffAmount" V="0" />
+			<E K="LensShift" V="0" />
+			<E K="LensShiftDirection" V="0" />
+			<E K="LensTilt" V="0" />
+			<E K="LensTiltDirection" V="0" />
+			<E K="Midtone" V="0;0;0;0" />
+			<E K="Moire" V="0;8" />
+			<E K="NoiseDetailsAmount" V="50" />
+			<E K="NrAmount" V="0" />
+			<E K="Rotation" V="0" />
+			<E K="Saturation" V="0" />
+			<E K="Shadow" V="0;0;0;0" />
+			<E K="ShadowRecovery" V="0" />
+			<E K="SurfaceSmoothnessAmount" V="0" />
+			<E K="TargetHighlight" V="1;1;1;1" />
+			<E K="TargetShadow" V="0;0;0;0" />
+			<E K="UsmAmount" V="0" />
+			<E K="UsmHaloControl" V="0" />
+			<E K="UsmRadius" V="0.800000011920929" />
+			<E K="UsmThreshold" V="1" />
+			<E K="WhiteBalance" V="1;1;1" />
+			<E K="WhiteRecovery" V="0" />
+		</DL>
+		<AL />
+	</VAR>
+</IMG>

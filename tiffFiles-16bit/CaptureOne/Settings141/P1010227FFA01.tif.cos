@@ -31,14 +31,14 @@
 	<E K="Version" V="1300" />
 	<E K="Width" V="3578" />
 	<VAR Engine="1300">
-		<E K="HighResProcessCounter" V="0" />
-		<E K="LastMetadataModificationDate" V="-62135596800.000000" />
-		<E K="LowResProcessCounter" V="0" />
+		<E K="HighResProcessCounter" V="25" />
+		<E K="LastMetadataModificationDate" V="-2209075200.000000" />
+		<E K="LowResProcessCounter" V="499" />
 		<E K="ProductID" V="FileSystemTiff" />
-		<E K="RawMetadataModificationDate" V="-62135596800.000000" />
-		<E K="SyncProcessCounter" V="0" />
+		<E K="RawMetadataModificationDate" V="-2209075200.000000" />
+		<E K="SyncProcessCounter" V="131" />
 		<E K="UUID" V="CB01F0FA-EC97-48A7-BF27-2629CEBA2447" />
-		<E K="XMPMetadataModificationdate" V="-62135596800.000000" />
+		<E K="XMPMetadataModificationdate" V="-2209075200.000000" />
 		<DL>
 			<E K="BlackRecovery" V="0" />
 			<E K="Brightness" V="0" />
@@ -53,6 +53,7 @@
 			<E K="BwMagenta" V="0" />
 			<E K="BwRed" V="0" />
 			<E K="BwYellow" V="0" />
+			<E K="CalculatedDehazeColor" V="0;0;0" />
 			<E K="Clarity" V="0" />
 			<E K="ClarityMethod" V="3" />
 			<E K="ClarityStructure" V="0" />
@@ -68,6 +69,9 @@
 			<E K="Contrast" V="0" />
 			<E K="CropOutsideImage" V="0" />
 			<E K="DehazeAmount" V="0" />
+			<E K="DehazeColor" V="0;0;0" />
+			<E K="DehazeLevelHigh" V="1;1;1" />
+			<E K="DehazeLevelLow" V="0;0;0" />
 			<E K="Exposure" V="0" />
 			<E K="FilmCurve" V="FileSystemTiff-Auto.fcrv" />
 			<E K="FilmGrainAmount" V="0" />
@@ -81,16 +85,17 @@
 			<E K="GeometryKeystoneTiltX" V="0" />
 			<E K="GeometryKeystoneTiltY" V="0" />
 			<E K="GradationCurve" V="0,0;1,1" />
-			<E K="GradationCurveBlue" V="0,0;1,1" />
+			<E K="GradationCurveBlue" V="0,0;0.0481586419045925,0.0519547387957573;0.118980169296265,0.127660945057869;0.220963180065155,0.230877786874771;0.345609068870544,0.354620486497879;0.470254957675934,0.47800675034523;0.55807363986969,0.551247298717499;0.592068016529083,0.599199414253235;0.603399455547333,0.612588882446289;1,1" />
 			<E K="GradationCurveGreen" V="0,0;1,1" />
 			<E K="GradationCurveRed" V="0,0;1,1" />
-			<E K="GradationCurveY" V="0,0;1,1" />
+			<E K="GradationCurveY" V="0,0;0.0849858373403549,0.113857574760914;0.178470253944397,0.289316713809967;0.252124667167664,0.377034157514572;0.373937666416168,0.494305849075317;0.478753536939621,0.699294984340668;0.56090646982193,0.835954487323761;0.594900846481323,0.869387090206146;0.65722382068634,0.946041226387024;1,1" />
 			<E K="Highlight" V="1;1;1;1" />
 			<E K="HighlightRecoveryEx" V="0" />
 			<E K="ICCProfile" V="EMBEDDED" />
 			<E K="Image_DateCreated" V="20210606" />
 			<E K="Image_Scene" V="" />
 			<E K="LensAperture" V="5.59999990463257" />
+			<E K="LensDiffractionCorrectionEnabled" V="0" />
 			<E K="LensFocalLength" V="27" />
 			<E K="LensGeoAbr" V="|0.000000|1|0|0" />
 			<E K="LensLccLightFalloffAmount" V="0" />
@@ -109,13 +114,21 @@
 			<E K="SurfaceSmoothnessAmount" V="0" />
 			<E K="TargetHighlight" V="1;1;1;1" />
 			<E K="TargetShadow" V="0;0;0;0" />
+			<E K="TechnicalProcessingMethod" V="0" />
 			<E K="UsmAmount" V="0" />
 			<E K="UsmHaloControl" V="0" />
+			<E K="UsmMethod" V="0" />
 			<E K="UsmRadius" V="0.800000011920929" />
 			<E K="UsmThreshold" V="1" />
 			<E K="WhiteBalance" V="1;1;1" />
 			<E K="WhiteRecovery" V="0" />
 		</DL>
-		<AL />
+		<AL>
+			<E K="Crop" V="1617.21252441406;908.581665039062;2305.17602539062;1608.18347167969" />
+			<E K="FilmCurve" V="FileSystemTiff-Linear Response.fcrv" />
+			<E K="GradationCurveY" V="0,0;0.124645888805389,0.0425704978406429;0.144475921988487,0.0835171192884445;0.218130305409431,0.274132311344147;0.38810196518898,0.475325375795364;0.45325779914856,0.630965292453766;0.575070798397064,0.813177883625031;0.620396614074707,0.889099776744843;0.65722382068634,0.930856823921204;1,1" />
+			<E K="ICCProfile" V="bättrevykort.icm" />
+			<E K="Rotation" V="0.496053874492645" />
+		</AL>
 	</VAR>
 </IMG>

@@ -31,14 +31,14 @@
 	<E K="Version" V="1300" />
 	<E K="Width" V="3577" />
 	<VAR Engine="1300">
-		<E K="HighResProcessCounter" V="0" />
-		<E K="LastMetadataModificationDate" V="-62135596800.000000" />
-		<E K="LowResProcessCounter" V="0" />
+		<E K="HighResProcessCounter" V="91" />
+		<E K="LastMetadataModificationDate" V="-2209075200.000000" />
+		<E K="LowResProcessCounter" V="137" />
 		<E K="ProductID" V="FileSystemTiff" />
-		<E K="RawMetadataModificationDate" V="-62135596800.000000" />
+		<E K="RawMetadataModificationDate" V="-2209075200.000000" />
 		<E K="SyncProcessCounter" V="0" />
 		<E K="UUID" V="D498D494-CC68-4AA0-9DA5-CE31A3E73548" />
-		<E K="XMPMetadataModificationdate" V="-62135596800.000000" />
+		<E K="XMPMetadataModificationdate" V="-2209075200.000000" />
 		<DL>
 			<E K="BlackRecovery" V="0" />
 			<E K="Brightness" V="0" />
@@ -53,6 +53,7 @@
 			<E K="BwMagenta" V="0" />
 			<E K="BwRed" V="0" />
 			<E K="BwYellow" V="0" />
+			<E K="CalculatedDehazeColor" V="0;0;0" />
 			<E K="Clarity" V="0" />
 			<E K="ClarityMethod" V="3" />
 			<E K="ClarityStructure" V="0" />
@@ -68,6 +69,9 @@
 			<E K="Contrast" V="0" />
 			<E K="CropOutsideImage" V="0" />
 			<E K="DehazeAmount" V="0" />
+			<E K="DehazeColor" V="0;0;0" />
+			<E K="DehazeLevelHigh" V="1;1;1" />
+			<E K="DehazeLevelLow" V="0;0;0" />
 			<E K="Exposure" V="0" />
 			<E K="FilmCurve" V="FileSystemTiff-Auto.fcrv" />
 			<E K="FilmGrainAmount" V="0" />
@@ -91,6 +95,7 @@
 			<E K="Image_DateCreated" V="20210605" />
 			<E K="Image_Scene" V="" />
 			<E K="LensAperture" V="5.59999990463257" />
+			<E K="LensDiffractionCorrectionEnabled" V="0" />
 			<E K="LensFocalLength" V="27" />
 			<E K="LensGeoAbr" V="|0.000000|1|0|0" />
 			<E K="LensLccLightFalloffAmount" V="0" />
@@ -109,13 +114,18 @@
 			<E K="SurfaceSmoothnessAmount" V="0" />
 			<E K="TargetHighlight" V="1;1;1;1" />
 			<E K="TargetShadow" V="0;0;0;0" />
+			<E K="TechnicalProcessingMethod" V="0" />
 			<E K="UsmAmount" V="0" />
 			<E K="UsmHaloControl" V="0" />
+			<E K="UsmMethod" V="0" />
 			<E K="UsmRadius" V="0.800000011920929" />
 			<E K="UsmThreshold" V="1" />
 			<E K="WhiteBalance" V="1;1;1" />
 			<E K="WhiteRecovery" V="0" />
 		</DL>
-		<AL />
+		<AL>
+			<E K="FilmCurve" V="FileSystemTiff-Linear Response.fcrv" />
+			<E K="ICCProfile" V="vykort1.icm" />
+		</AL>
 	</VAR>
 </IMG>
