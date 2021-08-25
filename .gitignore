@@ -22,3 +22,5 @@ run.xml
 *.ini
 *.gz
 *.gsheet
+*.cos
+*.gsheet
