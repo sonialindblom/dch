@@ -1,0 +1,231 @@
+.main-pic-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: center / cover no-repeat url("./images/storaEkbergSanatorium.jpg");
+  opacity: 0;
+  transition: all 2s ease;
+  /* filter: blur(6px); */
+}
+
+/* .main-pic {
+  width: 100%;
+  height: 100%;
+  background: center / contain no-repeat
+    url("./images/storaEkbergSanatorium.jpg");
+} */
+
+.main-cover-info {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #fff;
+  text-shadow: rgb(0 0 0 / 45%) 1px 1px 0;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  white-space: normal;
+  background-repeat: repeat-x;
+  background-color: transparent;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6) 0,
+    transparent 75%
+  );
+}
+
+.main-cover-info h1 {
+  margin-top: 80px;
+  font-size: 60px;
+}
+
+.main-cover-bottom-gradient {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  height: 70%;
+  background-repeat: repeat-x;
+  background-color: transparent;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+
+.main-bottom-arrow-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  font-size: 50px;
+  transform: translateY(0);
+}
+
+.main-bottom-arrow-box i {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: 1s linear 0.2s infinite alternate move-arrow;
+  opacity: 0.8;
+}
+
+@keyframes move-arrow {
+  from {
+    transform: translateY(-50%, 0);
+  }
+  to {
+    transform: translate(-50%, 20px);
+  }
+}
+
+.section:nth-child(2) .fp-tableCell {
+  display: block;
+  padding-top: 20px;
+}
+.lSGallery {
+  position: absolute;
+  bottom: 2vw;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+
+#image-gallery {
+  height: auto !important;
+}
+
+#image-gallery li {
+  display: flex;
+  padding: 0 50px 20px 50px;
+}
+
+#image-gallery img {
+  max-width: 800px;
+  max-height: 70vh;
+  object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gallery-info-box {
+  margin-left: 20px;
+  border-left: none;
+  border-top: none;
+}
+
+.gallery-info-box td {
+  border-bottom: 4px solid transparent;
+  border-right: none;
+  padding: 5px 4px;
+}
+.gallery-info-box td:first-child {
+  background: #eee;
+  background-clip: padding-box;
+}
+.gallery-info-box td:last-child {
+  white-space: normal;
+  word-break: break-all;
+  background: #f6f6f6;
+  background-clip: padding-box;
+}
+
+/* homePage */
+.header {
+  position: relative;
+}
+.header-img {
+  height: 560px;
+  overflow: hidden;
+}
+.header img {
+  width: 100%;
+}
+.header-con {
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+  transform: translate(-50%, 0);
+  width: 1000px;
+  background-color: #fff;
+  padding: 24px;
+}
+.header-con h6 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+.header-con p {
+  font-size: 16px;
+  color: #333;
+  text-indent: 2em;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 10px;
+}
+ul,
+li {
+  list-style: none;
+}
+.listItem {
+  width: 1200px;
+  margin: 170px auto 0;
+}
+.listItem ul,
+.listItem ul li .li_img {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.listItem ul li {
+  width: 590px;
+  float: left;
+  margin: 0 5px 20px 5px;
+}
+.listItem ul li.row-line {
+  width: 100%;
+}
+.listItem ul li.row-line .li_img,
+.listItem ul li.row-line .li_con {
+  width: 590px;
+}
+.listItem ul li img {
+  width: 100%;
+  height: 382px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+}
+.listItem ul li .li_con {
+  padding: 6px;
+  background-color: #f2f2f2;
+}
+.listItem ul li p {
+  height: 24px;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.listItem ul li:hover .li_con {
+  box-shadow: 0 10px 20px #e0e0e0;
+}
+.listItem ul li:hover img {
+  -webkit-transform: scale(1.1);
+  　　-moz-transform: scale(1.1);
+  　　-o-transform: scale(1.1);
+  　　-ms-transform: scale(1.1);
+}
+.btn-center {
+  text-align: center;
+}
